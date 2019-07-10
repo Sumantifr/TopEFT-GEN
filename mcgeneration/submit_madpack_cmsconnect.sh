@@ -12,5 +12,5 @@ for ISETUPTAG in `seq 0 ${NSETUPTAG}`; do
     done 
     sed -i -e "s|SUBSETUP|${SETUP}|g" addons/cards/${SETUP}/${SETUP}_*.dat 
     # submit to cmsconnect  
-    ./submit_cmsconnect_gridpack_generation.sh ${CARD} addons/cards/${CARD}/ 
+    ./submit_cmsconnect_gridpack_generation.sh ${SETUP} addons/cards/${SETUP}/ 
 done
