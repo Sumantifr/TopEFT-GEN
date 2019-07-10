@@ -1,4 +1,4 @@
-### summary
+### Summary
 This directory contains EFT specific modifications and addons for cms-sw/genproductions which allow to prepare EFT gridpacks 
 
 ### Setup 
