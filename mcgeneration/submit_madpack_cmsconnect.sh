@@ -1,5 +1,5 @@
 #!/bin/bash                                                                                                                                                                                                       
-SETUPTAG=( gluontop_rwgt ) 
+SETUPTAG=( $@ ) 
 MODEL=dim6top_LO_UFO
 NSETUPTAG=`echo "scale=0; ${#SETUPTAG[@]} -1 " | bc`
 for ISETUPTAG in `seq 0 ${NSETUPTAG}`; do
@@ -11,8 +11,6 @@ for ISETUPTAG in `seq 0 ${NSETUPTAG}`; do
 	cp -rp addons/cards/${MODEL}_template/${CARD}.dat  addons/cards/${SETUP}/${SETUP}_${CARD}.dat
     done 
     sed -i -e "s|SUBSETUP|${SETUP}|g" addons/cards/${SETUP}/${SETUP}_*.dat 
-    # run locally for testing 
-    ./gridpack_generation.sh ${SETUP} addons/cards/${SETUP}
+    # submit to cmsconnect  
+    nohup ./submit_cmsconnect_gridpack_generation.sh ${CARD} addons/cards/${CARD}/ > ${CARD}.debug 2>&1 &
 done
-
-

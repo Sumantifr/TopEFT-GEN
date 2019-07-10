@@ -4,14 +4,11 @@
 ### define pathes - please keep structure and names to properly apply patches 
 EFTMCPATH=`pwd -P`
 GENPRODPATH=${EFTMCPATH}/../../genproductions                                                                                                                                                                      
-
-
 ### check out official genproduction repo, currently branch 2.6 
 if [ -d "$GENPRODPATH" ]; then
     echo "Directory ${GENPRODPATH} shouldn't exist at this point"
     echo " We are going to set it up"
     echo " Please remove it and start over again"
-    exit 0
 else 
     mkdir -p ${GENPRODPATH}
     cd ${GENPRODPATH}/..
@@ -19,7 +16,7 @@ else
     cd ${GENPRODPATH}
 
     # copy eft relevant code  
-    for COPY in addons submit_madpack_ttbareft.sh ; do 
+    for COPY in addons submit_madpack_local.sh submit_madpack_cmsconnect.sh; do 
 	cp -r ${EFTMCPATH}/${COPY} ${GENPRODPATH}/bin/MadGraph5_aMCatNLO/.
     done
 
