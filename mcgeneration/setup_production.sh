@@ -16,7 +16,7 @@ else
     cd ${GENPRODPATH}
 
     # copy eft relevant code
-    for COPY in addons submit_madpack_local.sh submit_madpack_cmsconnect.sh; do
+    for COPY in addons; do
 	cp -r ${EFTMCPATH}/${COPY} ${GENPRODPATH}/bin/MadGraph5_aMCatNLO/.
     done
 
