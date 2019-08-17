@@ -385,14 +385,19 @@ GC_94 = Coupling(name = 'GC_94',
                  value = '(cte2*complex(0,1))/Lambda**2',
                  order = {'DIM6':1})
 
+#GC_95 = Coupling(name = 'GC_95',
+#                 value = '(ctG*complex(0,1))/(Lambda**2*cmath.sqrt(2))',
+#                 order = {'DIM6':1})
+#
+#GC_96 = Coupling(name = 'GC_96',
+#                 value = 'ctGI/(Lambda**2*cmath.sqrt(2))',
+#                 order = {'DIM6':1})
 GC_95 = Coupling(name = 'GC_95',
-                 value = '(ctG*complex(0,1))/(Lambda**2*cmath.sqrt(2))',
-                 order = {'DIM6':1})
-
+                 value = '(ctG*G*complex(0,1))/(Lambda**2*cmath.sqrt(2))',
+                 order = {'DIM6':1, 'QCD':1})
 GC_96 = Coupling(name = 'GC_96',
-                 value = 'ctGI/(Lambda**2*cmath.sqrt(2))',
-                 order = {'DIM6':1})
-
+                 value = 'ctGI*G/(Lambda**2*cmath.sqrt(2))',
+                 order = {'DIM6':1, 'QCD':1})
 GC_97 = Coupling(name = 'GC_97',
                  value = '(ctl1*complex(0,1))/Lambda**2',
                  order = {'DIM6':1})
@@ -558,13 +563,21 @@ GC_137 = Coupling(name = 'GC_137',
                   order = {'QED':1})
 
 GC_138 = Coupling(name = 'GC_138',
-                  value = '(ctG*complex(0,1)*vev)/(Lambda**2*cmath.sqrt(2))',
-                  order = {'DIM6':1,'QED':-1})
+                  value = '(ctG*G*complex(0,1)*vev)/(Lambda**2*cmath.sqrt(2))',
+                  order = {'DIM6':1, 'QCD':1,'QED':-1})
 
 GC_139 = Coupling(name = 'GC_139',
-                  value = '(ctGI*vev)/(Lambda**2*cmath.sqrt(2))',
-                  order = {'DIM6':1,'QED':-1})
+                  value = '(ctGI*G*vev)/(Lambda**2*cmath.sqrt(2))',
+                  order = {'DIM6':1, 'QCD':1,'QED':-1})
 
+#GC_138 = Coupling(name = 'GC_138',
+#                  value = '(ctG*complex(0,1)*vev)/(Lambda**2*cmath.sqrt(2))',
+#                  order = {'DIM6':1,'QED':-1})
+#
+#GC_139 = Coupling(name = 'GC_139',
+#                  value = '(ctGI*vev)/(Lambda**2*cmath.sqrt(2))',
+#                  order = {'DIM6':1,'QED':-1})
+#
 GC_140 = Coupling(name = 'GC_140',
                   value = '(3*ctp*complex(0,1)*vev)/(Lambda**2*cmath.sqrt(2))',
                   order = {'DIM6':1,'QED':-1})
@@ -581,13 +594,20 @@ GC_143 = Coupling(name = 'GC_143',
                   value = '-((ctWI*vev)/Lambda**2)',
                   order = {'DIM6':1,'QED':-1})
 
-GC_144 = Coupling(name = 'GC_144',
-                  value = '-((ctG*G*vev)/(Lambda**2*cmath.sqrt(2)))',
-                  order = {'DIM6':1,'QCD':1,'QED':-1})
+#GC_144 = Coupling(name = 'GC_144',
+#                  value = '-((ctG*G*vev)/(Lambda**2*cmath.sqrt(2)))',
+#                  order = {'DIM6':1,'QCD':1,'QED':-1})
+#
+#GC_145 = Coupling(name = 'GC_145',
+#                  value = '(ctGI*complex(0,1)*G*vev)/(Lambda**2*cmath.sqrt(2))',
+#                  order = {'DIM6':1,'QCD':1,'QED':-1})
 
+GC_144 = Coupling(name = 'GC_144',
+                  value = '-((ctG*G*G*vev)/(Lambda**2*cmath.sqrt(2)))',
+                  order = {'DIM6':1, 'QCD':2,'QED':-1})
 GC_145 = Coupling(name = 'GC_145',
-                  value = '(ctGI*complex(0,1)*G*vev)/(Lambda**2*cmath.sqrt(2))',
-                  order = {'DIM6':1,'QCD':1,'QED':-1})
+                  value = '(ctGI*G*complex(0,1)*G*vev)/(Lambda**2*cmath.sqrt(2))',
+                  order = {'DIM6':1, 'QCD':2,'QED':-1})
 
 GC_146 = Coupling(name = 'GC_146',
                   value = '-(ee**2*vev)/(4.*sw**2)',
