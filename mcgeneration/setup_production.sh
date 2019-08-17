@@ -3,7 +3,7 @@
 
 ### define pathes - please keep structure and names to properly apply patches
 EFTMCPATH=`pwd -P`
-GENPRODPATH=${EFTMCPATH}/../../genproductions
+GENPRODPATH=${EFTMCPATH}/../../genproductions$1
 ### check out official genproduction repo, currently branch 2.6
 if [ -d "$GENPRODPATH" ]; then
     echo "Directory ${GENPRODPATH} shouldn't exist at this point"
@@ -12,7 +12,7 @@ if [ -d "$GENPRODPATH" ]; then
 else
     mkdir -p ${GENPRODPATH}
     cd ${GENPRODPATH}/..
-    git clone -b mg265   https://github.com/cms-sw/genproductions.git genproductions
+    git clone -b mg265   https://github.com/cms-sw/genproductions.git genproductions$1
     cd ${GENPRODPATH}
 
     # copy eft relevant code
