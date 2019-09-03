@@ -15,7 +15,7 @@ Details can be found here: https://ci-connect.atlassian.net/wiki/spaces/CMS/page
 
 ### Set up TopEFT repository and genproductions 
 ```
-    git clone https://github.com/cms-analysis/TopEFT.git
+    git clone https://github.com/HephyAnalysisSW/TopEFT-GEN.git TopEFT
     cd TopEFT/mcgeneration
 ```
 
