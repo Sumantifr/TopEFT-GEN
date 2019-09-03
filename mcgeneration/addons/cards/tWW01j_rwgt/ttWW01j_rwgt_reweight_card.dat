@@ -1,0 +1,10 @@
+change rwgt_dir rwgt
+
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
+launch --rwgt_name=cu_0p66666
+set cu 0.66666
+launch --rwgt_name=cu_1p0
+set cu 1.00
+launch --rwgt_name=cu_0p5
+set cu 0.5
