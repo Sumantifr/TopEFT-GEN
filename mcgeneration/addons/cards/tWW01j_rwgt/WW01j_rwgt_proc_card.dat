@@ -42,4 +42,5 @@ define w = w+ w-
 generate p p > t w+ w-  NP=1
 add process p p > t~ w+ w- j  NP=1
 
-output ttWW01j_rwgt 
+output ttWW01j_rwgt
+ 
