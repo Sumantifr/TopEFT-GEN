@@ -15,8 +15,8 @@ set max_weight_ps_point 400
  
 set max_running_process 1
 
-decay t > w+ b DIM6=1, w+ > all all DIM6=0
-decay t~ > w- b~ DIM6=1, w- > all all DIM6=0
+decay t > w+ b DIM6=0, w+ > all all DIM6=0
+decay t~ > w- b~ DIM6=0, w- > all all DIM6=0
 
 launch
 

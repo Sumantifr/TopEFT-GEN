@@ -38,23 +38,8 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
 
-generate p p > t t~ w DIM6=1 QED=4 FCNC=0
-add process p p > t t~ w j DIM6=1 QED=4 FCNC=0
+generate p p > t t~ w DIM6=1
+add process p p > t t~ w j DIM6=1
 
-output ttW01j_rwgt 
-# central card
-#define p = g u c d s u~ c~ d~ s~
-#define j = g u c d s u~ c~ d~ s~
-#define l+ = e+ mu+
-#define l- = e- mu-
-#define vl = ve vm vt
-#define vl~ = ve~ vm~ vt~
-#define p = p b b~
-#define j = j b b~
-#define ell+ = e+ mu+ ta+
-#define ell- = e- mu- ta-
-#generate p p > t t~ ell+ vl @0
-#add process p p > t t~ ell- vl~ @1
-#add process p p > t t~ ell+ vl j @2
-#add process p p > t t~ ell- vl~ j @3
+output ttW01j_rwgt
 
