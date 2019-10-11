@@ -23,25 +23,26 @@
 set group_subprocesses Auto
 set ignore_six_quark_processes False
 set loop_optimized_output True
-#set low_mem_multicore_nlo_generation False
+set low_mem_multicore_nlo_generation False
 set loop_color_flows False
 set gauge unitary
+#set gauge Feynman
 set complex_mass_scheme False
 set max_npoint_for_channel 0
-import model dim6top_LO_UFO
+import model Yt
 
-define p = g u c d s b u~ c~ d~ s~ b~
-define j = g u c d s b u~ c~ d~ s~ b~
+define p = p b b~
+define j = j b b~
 define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
+define wdecay = l+ vl l- vl~
 define w = w+ w-
 
-#generate p p > t z z DIM6=1
-#add process p p > t~ z z DIM6=1
-generate p p > t z z j DIM6=1
-add process p p > t~ z z j DIM6=1
+generate p p > t w z NP=1
+add process p p > t~ w z NP=1
+add process p p > t w z j NP=1
+add process p p > t~ w z j NP=1
 
-output tZZ1j_rwgt
-
+output tWZ01j_rwgt

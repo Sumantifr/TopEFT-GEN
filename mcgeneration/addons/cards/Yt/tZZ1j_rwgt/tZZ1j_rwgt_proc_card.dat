@@ -28,20 +28,17 @@ set loop_color_flows False
 set gauge unitary
 set complex_mass_scheme False
 set max_npoint_for_channel 0
-import model dim6top_LO_UFO
+import model Yt
 
-define p = g u c d s b u~ c~ d~ s~ b~
-define j = g u c d s b u~ c~ d~ s~ b~
+define p = p b b~
+define j = j b b~
 define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
+define wdecay = l+ vl l- vl~
 define w = w+ w-
+generate p p > t z z j NP=1
+add process p p > t~ z z j NP=1
 
-generate p p > t w z DIM6=1
-add process p p > t~ w z DIM6=1
-add process p p > t w z j DIM6=1
-add process p p > t~ w z j DIM6=1
-
-output tWZ01j_rwgt
-
+output tZZ1j_rwgt
