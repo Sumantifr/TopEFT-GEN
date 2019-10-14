@@ -1,0 +1,14 @@
+--- a/gridpack_generation.sh	2019-07-05 23:28:50.929166000 +0200
++++ b/../../../TopEFT/mcgeneration/gridpack_generation.sh	2019-07-06 00:07:14.081590000 +0200
+#--- ../../../../schoef/genproductions_mg265_4//bin/MadGraph5_aMCatNLO/gridpack_generation.sh	2019-10-11 11:33:53.886730326 -0500
+#+++ gridpack_generation.sh	2019-10-14 02:43:43.316460063 -0500
+@@ -204,7 +204,8 @@
+           #get needed BSM model
+           if [[ $model = *[!\ ]* ]]; then
+             echo "Loading extra model $model"
+-            wget --no-check-certificate https://cms-project-generators.web.cern.ch/cms-project-generators/$model	
++	    wget --no-check-certificate http://www.hephy.at/user/rschoefbeck/models/$model            
++	    #wget --no-check-certificate https://cms-project-generators.web.cern.ch/cms-project-generators/$model	
+             cd models
+             if [[ $model == *".zip"* ]]; then
+               unzip ../$model
