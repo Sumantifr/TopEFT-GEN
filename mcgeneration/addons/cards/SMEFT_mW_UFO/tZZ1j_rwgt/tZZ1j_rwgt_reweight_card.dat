@@ -1,0 +1,800 @@
+# reweight card file created with https://github.com/schoef/gridpacks on 2019-10-15 02:35:16
+# Command line arguments: make_reweight_card.py --filename tZZ1j_rwgt_reweight_card.dat --overwrite --reference cuHPh1x3 0 cuHAbs1x3 0 --couplings 2 cuHPh1x3 1 cuHPh2x3 1 cuHPh3x1 1 cuHPh3x2 1 cuHPh3x3 1 cuHAbs1x3 1 cuHAbs2x3 1 cuHAbs3x1 1 cuHAbs3x2 1 cuHAbs3x3 1
+# Polynomial order: 2
+# Reference Point: cuHPh1x3 0 cuHAbs1x3 0
+change rwgt_dir rwgt
+
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_2p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 2.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_1p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 1.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_2p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 2.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_1p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 1.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_2p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 2.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_1p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 1.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_2p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 2.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_1p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 1.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_2p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 2.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_1p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 1.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_2p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 2.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_1p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 1.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_2p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 2.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_1p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 1.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_2p_cuHAbs3x2_0p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 2.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_1p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_1p_cuHAbs3x2_0p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 1.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_2p_cuHAbs3x3_0p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 2.000000
+set cuHAbs3x3 0.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_1p_cuHAbs3x3_1p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 1.000000
+set cuHAbs3x3 1.000000
+
+launch --rwgt_name=cuHPh1x3_0p_cuHPh2x3_0p_cuHPh3x1_0p_cuHPh3x2_0p_cuHPh3x3_0p_cuHAbs1x3_0p_cuHAbs2x3_0p_cuHAbs3x1_0p_cuHAbs3x2_0p_cuHAbs3x3_2p
+set cuHPh1x3 0.000000
+set cuHPh2x3 0.000000
+set cuHPh3x1 0.000000
+set cuHPh3x2 0.000000
+set cuHPh3x3 0.000000
+set cuHAbs1x3 0.000000
+set cuHAbs2x3 0.000000
+set cuHAbs3x1 0.000000
+set cuHAbs3x2 0.000000
+set cuHAbs3x3 2.000000
+
