@@ -1,0 +1,19 @@
+--- a/gridpack_generation.sh    2019-07-05 23:28:50.929166000 +0200
++++ b/../../../TopEFT/mcgeneration/gridpack_generation.sh   2019-07-06 00:07:14.081590000 +0200
+@@ -123,6 +123,16 @@
+       # careful: if you change the model path here, you have to change it in submit_cmsconnect_gridpack_generation(_singlejob).sh as well (model_directory)
+       cp -rp ${PRODHOME}/addons/models/* ${MGBASEDIRORIG}/models/
+ 
++      if [ -e $CARDSDIR/${name}_restrict_custom.dat ]; then
++          cp $CARDSDIR/${name}_restrict_custom.dat ./Cards/restrict_custom.dat 
++          for MDDIR in ${MGBASEDIRORIG}/models/*/
++          do
++              echo $CARDSDIR/${name}_restrict_custom.dat $MDDIR/restrict_custom.dat 
++              cp $CARDSDIR/${name}_restrict_custom.dat $MDDIR/restrict_custom.dat 
++          done
++      fi
++    
++
+       #############################################
+       #Apply any necessary patches on top of official release
+       #############################################
