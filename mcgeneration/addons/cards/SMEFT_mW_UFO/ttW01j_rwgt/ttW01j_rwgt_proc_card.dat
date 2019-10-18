@@ -30,16 +30,15 @@ set complex_mass_scheme False
 set max_npoint_for_channel 0
 import model SMEFT_mW_UFO-custom
 
-define p = p b b~
-define j = j b b~
+define p = g u c d s b u~ c~ d~ s~ b~
+define j = g u c d s b u~ c~ d~ s~ b~
 define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
-define wdecay = l+ vl l- vl~
 define w = w+ w-
 
-generate p p > t z z j NP=1, (t > W+ b NP=1) 
-add process p p > t~ z z j NP=1, (t~ > W- b~ NP=1)
+generate p p > t t~ w NP=1, (t > W+ b NP=1), (t~ > W- b~ NP=1)
+add process p p > t t~ w j NP=1, (t > W+ b NP=1), (t~ > W- b~ NP=1)
 
-output tZZ1j_rwgt
+output ttW01j_rwgt
