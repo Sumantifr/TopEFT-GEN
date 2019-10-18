@@ -13,7 +13,7 @@ else
     mkdir -p ${GENPRODPATH}
     cd ${GENPRODPATH}/..
     git clone -b mg265   https://github.com/cms-sw/genproductions.git genproductions$1
-    cp diagram_generation.sh genproductions$1/bin/MadGraph5_aMCatNLO/.
+    cp $EFTMCPATH/diagram_generation.sh genproductions$1/bin/MadGraph5_aMCatNLO/.
     cd ${GENPRODPATH}
 
     # copy eft relevant code
