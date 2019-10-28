@@ -46,9 +46,9 @@ define w = w+ w-
 #add process p p > t w l+ l- j /h NP=1
 #add process p p > t~ w l+ l- j /h NP=1
 
-generate p p > t w z /h NP=1
-add process p p > t~ w z /h NP=1
-add process p p > t w z j /h NP=1
-add process p p > t~ w z j /h NP=1
+generate p p > t w z NP=1
+add process p p > t~ w z NP=1
+add process p p > t w z j NP=1
+add process p p > t~ w z j NP=1
 
 output tWZ01j_rwgt
