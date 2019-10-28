@@ -39,7 +39,7 @@ define vl~ = ve~ vm~ vt~
 define wdecay = l+ vl l- vl~
 define w = w+ w-
 
-generate p p > t z z j NP=1
-add process p p > t~ z z j NP=1
+generate p p > t z z j NP=1, (t > W+ b NP=1) 
+add process p p > t~ z z j NP=1, (t~ > W- b~ NP=1)
 
 output tZZ1j_rwgt

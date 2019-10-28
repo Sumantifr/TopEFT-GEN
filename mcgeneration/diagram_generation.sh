@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 #First you need to set couple of settings:
 name=${1}
