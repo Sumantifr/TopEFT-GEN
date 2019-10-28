@@ -32,7 +32,8 @@ set max_npoint_for_channel 0
 import model Yt
 
 define p = p b b~
-define j = j b b~
+define j = j 
+#define j = j b b~
 define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
@@ -40,9 +41,14 @@ define vl~ = ve~ vm~ vt~
 define wdecay = l+ vl l- vl~
 define w = w+ w-
 
-generate p p > t w z NP=1
-add process p p > t~ w z NP=1
-add process p p > t w z j NP=1
-add process p p > t~ w z j NP=1
+#generate p p > t w l+ l- /h NP=1
+#add process p p > t~ w l+ l- /h NP=1
+#add process p p > t w l+ l- j /h NP=1
+#add process p p > t~ w l+ l- j /h NP=1
+
+generate p p > t w z /h NP=1
+add process p p > t~ w z /h NP=1
+add process p p > t w z j /h NP=1
+add process p p > t~ w z j /h NP=1
 
 output tWZ01j_rwgt
