@@ -140,7 +140,7 @@ else:
 
 if isA( args.filename, list ) and len(args.filename) == 1:
     args.filename = args.filename[0]
-elif isA( arg.filename, list ) and len(args.filename) > 1:
+elif isA( args.filename, list ) and len(args.filename) > 1:
     raise ValueError('make_reweight_card.py: Wrong input in --filename!')   
 
 if not os.path.exists( args.filename ) or args.overwrite:

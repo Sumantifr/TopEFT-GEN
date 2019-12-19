@@ -12,7 +12,7 @@ fi
 CARDSDIR=${PRODHOME}/${carddir}
 
 
-WORKDIR=$PRODHOME/diagrams_tmp
+WORKDIR=$PRODHOME/diagrams_tmp_${name}
 if [ -d $WORKDIR ]; then
     rm -rf $WORKDIR
 fi
