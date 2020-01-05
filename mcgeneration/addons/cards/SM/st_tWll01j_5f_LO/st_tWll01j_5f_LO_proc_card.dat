@@ -1,0 +1,12 @@
+import model sm
+define p = p b  b~
+define j = g u u~ d d~ c c~ s s~ 
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+generate p p > t w- l+ l-  QED=4 @0
+add process p p > t~ w+ l+ l-  QED=4 @1
+add process p p > t w- l+ l- j  QED=4 @0
+add process p p > t~ w+ l+ l- j  QED=4 @1
+output st_tWll01j_5f_LO

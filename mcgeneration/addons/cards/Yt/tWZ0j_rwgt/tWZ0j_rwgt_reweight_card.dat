@@ -1,0 +1,17 @@
+# reweight card file created with https://github.com/schoef/gridpacks on 2019-10-07 03:58:57
+# Command line arguments: make_reweight_card.py --filename tWZ0j_rwgt_cu_0p66_reweight_card.dat --overwrite --reference cu 0.6666 --couplings 2 cu 1
+# Polynomial order: 2
+# Reference Point: cu 0.6666
+change rwgt_dir rwgt
+
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
+launch --rwgt_name=cu_0p
+set cu 0.000000
+
+launch --rwgt_name=cu_1p
+set cu 1.000000
+
+launch --rwgt_name=cu_2p
+set cu 2.000000
+
