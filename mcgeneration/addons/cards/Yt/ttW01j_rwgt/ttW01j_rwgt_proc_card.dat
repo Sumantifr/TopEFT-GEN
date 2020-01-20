@@ -28,8 +28,7 @@ set loop_color_flows False
 set gauge unitary
 set complex_mass_scheme False
 set max_npoint_for_channel 0
-#import model dim6top_LO_UFO-no_b_mass
-import model dim6top_LO_UFO
+import model Yt
 
 define p = g u c d s b u~ c~ d~ s~ b~
 define j = g u c d s b u~ c~ d~ s~ b~
@@ -39,8 +38,8 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
 
-generate p p > t t~ w DIM6=1 QED=4 FCNC=0
-add process p p > t t~ w j DIM6=1 QED=4 FCNC=0
+generate p p > t t~ w NP=1 QED=4 FCNC=0
+add process p p > t t~ w j NP=1 QED=4 FCNC=0
 
 output ttW01j_rwgt 
 # central card
