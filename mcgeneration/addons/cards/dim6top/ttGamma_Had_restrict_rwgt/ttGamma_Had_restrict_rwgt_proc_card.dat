@@ -5,7 +5,8 @@ set loop_color_flows False
 set gauge unitary
 set complex_mass_scheme False
 set max_npoint_for_channel 0
-import model dim6top_LO_UFO-dipoleEFT
+set stdout_level DEBUG
+import model dim6-custom
 define p = g u c d s b u~ c~ d~ s~ b~
 define j = g u c d s b u~ c~ d~ s~ b~
 define uc = u c
