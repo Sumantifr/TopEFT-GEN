@@ -1,0 +1,13 @@
+import model sm-no_b_mass
+define p = p b  b~
+define j = g u u~ d d~ c c~ s s~
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+define w = w+ w-
+generate p p > t w l+ l- /h
+add process p p > t~ w l+ l- /h
+add process p p > t w l+ l- j /h
+add process p p > t~ w l+ l- j /h
+output tWZ01j
