@@ -10,4 +10,4 @@ generate p p > t w l+ l- /h
 add process p p > t~ w l+ l- /h
 add process p p > t w l+ l- j /h
 add process p p > t~ w l+ l- j /h
-output tWZ01j
+output tWZ01j_LO
