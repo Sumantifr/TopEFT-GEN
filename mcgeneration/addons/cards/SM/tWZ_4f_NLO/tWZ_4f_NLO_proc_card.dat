@@ -14,6 +14,6 @@ define vl~ = ve~ vm~ vt~
 define p = p b b~
 define j = g u u~ d d~ c c~ s s~
 define w = w+ w-
-generate p p > t w l+ l- \h QED=4 [QCD]
-add process p p > t~ w l+ l- \h QED=4 [QCD]
+generate p p > t w l+ l- [QCD] \h QED=4
+add process p p > t~ w l+ l- [QCD] \h QED=4
 output tWZ_4f_NLO
