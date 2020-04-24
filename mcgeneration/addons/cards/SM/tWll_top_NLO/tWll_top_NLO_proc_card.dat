@@ -1,3 +1,4 @@
+set auto_update 0
 set default_unset_couplings 99
 set group_subprocesses Auto
 set ignore_six_quark_processes False
@@ -14,6 +15,6 @@ define vl~ = ve~ vm~ vt~
 define p = p b b~
 define j = j b b~
 define w = w+ w-
-generate p p > t w l+ l- \h QED=4 [QCD]
-add process p p > t~ w l+ l- \h QED=4 [QCD]
-output tWZ_5f_NLO
+define rp = h t~
+generate p p > t w l+ l- \ rp QED=5 [QCD]
+output tWll_top_NLO
