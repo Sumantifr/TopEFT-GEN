@@ -6,8 +6,8 @@ define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
-generate p p > t w Z /h
-add process p p > t~ w  /h
-add process p p > t w Z j /h
-add process p p > t~ w Z j /h
-output tWZ01j_LO
+generate p p > t w Z QED=4 /h
+add process p p > t~ w  QED=4 /h
+add process p p > t w Z j QED=4 /h
+add process p p > t~ w Z j QED=4 /h
+output tWZ01j_QED4_LO
