@@ -7,5 +7,5 @@ define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
 generate p p > t w Z /h
-add process p p > t~ w  /h
+add process p p > t~ w Z /h
 output tWZ0j_LO
