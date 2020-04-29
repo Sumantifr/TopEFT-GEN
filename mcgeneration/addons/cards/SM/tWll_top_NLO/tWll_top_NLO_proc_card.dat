@@ -15,6 +15,5 @@ define vl~ = ve~ vm~ vt~
 define p = p b b~
 define j = j b b~
 define w = w+ w-
-define rp = h t~
-generate p p > t w l+ l- \ rp QED=5 [QCD]
+generate p p > t w Z [QCD] $$ t~ QED=4
 output tWll_top_NLO
