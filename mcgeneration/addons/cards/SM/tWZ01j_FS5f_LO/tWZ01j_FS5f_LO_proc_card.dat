@@ -1,6 +1,6 @@
 import model sm-no_b_mass
 define p = p b  b~
-define j = g u u~ d d~ c c~ s s~
+define j = p
 define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
@@ -10,4 +10,4 @@ generate p p > t w Z /h
 add process p p > t~ w Z /h
 add process p p > t w Z j /h
 add process p p > t~ w Z j /h
-output tWZ01j_LO
+output tWZ01j_FS5f_LO 
