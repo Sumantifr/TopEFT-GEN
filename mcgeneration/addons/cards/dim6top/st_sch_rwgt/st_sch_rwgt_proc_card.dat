@@ -1,6 +1,6 @@
 import model dim6-custom
 define w = w+ w-
-generate p p > w+ > t (t > b w) b~DIM6=1
-add process p p > w- > t~ (t~ > b~ w) b DIM6=1
+generate p p > w+ > t b~DIM6=1
+add process p p > w- > t~ b DIM6=1
 
 output st_sch_rwgt
