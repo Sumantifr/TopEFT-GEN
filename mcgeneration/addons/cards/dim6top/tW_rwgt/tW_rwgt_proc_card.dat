@@ -8,4 +8,6 @@ define vl~ = ve~ vm~ vt~
 define w = w+ w-
 generate p p > t w > b w w DIM6=1
 add process p p > t~ w > b~ w w DIM6=1
+add process p p > t w j > b w w j DIM6=1
+add process p p > t~ w j > b~ w w j DIM6=1
 output tW_rwgt
