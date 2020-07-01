@@ -1,0 +1,11 @@
+import model dim6-custom
+define p = p b b~
+define j = j b b~
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+define w = w+ w-
+generate p p > t w > b w w DIM6=1
+add process p p > t~ w > b~ w w DIM6=1
+output tW_rwgt

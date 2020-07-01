@@ -1,0 +1,9 @@
+import model dim6-custom
+define w = w+ w-
+
+generate p p > t t~ > b b~ w w 
+add process p p > t t~ > b b~ w w j 
+add process p p > t t~ > b b~ w w j j 
+add process p p > t t~ > b b~ w w j j j 
+
+output tt0123j_rwgt

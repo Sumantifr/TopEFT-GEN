@@ -1,0 +1,6 @@
+mv tWG_rwgt_customizecards.dat tW_rwgt_customizecards.dat
+mv tWG_rwgt_extramodels.dat tW_rwgt_extramodels.dat
+mv tWG_rwgt_proc_card.dat tW_rwgt_proc_card.dat
+mv tWG_rwgt_reweight_card.dat tW_rwgt_reweight_card.dat
+mv tWG_rwgt_reweight_card.pkl tW_rwgt_reweight_card.pkl
+mv tWG_rwgt_run_card.dat tW_rwgt_run_card.dat
