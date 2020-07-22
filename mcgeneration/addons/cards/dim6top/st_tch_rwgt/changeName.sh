@@ -1,7 +1,0 @@
-mv stg_tch_rwgt_customizecards.dat st_tch_rwgt_customizecards.dat
-mv stg_tch_rwgt_extramodels.dat st_tch_rwgt_extramodels.dat
-mv stg_tch_rwgt_madspin_card.dat st_tch_rwgt_madspin_card.dat
-mv stg_tch_rwgt_proc_card.dat st_tch_rwgt_proc_card.dat
-mv stg_tch_rwgt_reweight_card.dat st_tch_rwgt_reweight_card.dat
-mv stg_tch_rwgt_reweight_card.pkl st_tch_rwgt_reweight_card.pkl
-mv stg_tch_rwgt_run_card.dat st_tch_rwgt_run_card.dat

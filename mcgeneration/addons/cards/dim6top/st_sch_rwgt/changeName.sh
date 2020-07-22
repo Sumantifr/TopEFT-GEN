@@ -1,7 +1,0 @@
-mv st_sch_lept_4f_ckm_NLO_customizecards.dat  st_sch_rwgt_customizecards.dat
-mv st_sch_lept_4f_ckm_NLO_madspin_card.dat  st_sch_rwgt_madspin_card.dat
-mv st_sch_lept_4f_ckm_NLO_proc_card.dat  st_sch_rwgt_proc_card.dat
-mv st_sch_lept_4f_ckm_NLO_run_card.dat  st_sch_rwgt_run_card.dat
-mv ttGamma_Dilept_restrict_rwgt_extramodels.dat  st_sch_rwgt_extramodels.dat
-mv ttGamma_Dilept_restrict_rwgt_reweight_card.dat  st_sch_rwgt_reweight_card.dat
-mv ttGamma_Dilept_restrict_rwgt_reweight_card.pkl st_sch_rwgt_reweight_card.pkl

@@ -1,6 +1,0 @@
-mv st_tWll_5f_LO_customizecards.dat tWG_rwgt_customizecards.dat
-mv st_tWll_5f_LO_proc_card.dat tWG_rwgt_proc_card.dat
-mv st_tWll_5f_LO_run_card.dat tWG_rwgt_run_card.dat
-mv ttGamma_Dilept_restrict_rwgt_extramodels.dat tWG_rwgt_extramodels.dat
-mv ttGamma_Dilept_restrict_rwgt_reweight_card.dat tWG_rwgt_reweight_card.dat
-mv ttGamma_Dilept_restrict_rwgt_reweight_card.pkl tWG_rwgt_reweight_card.pkl
