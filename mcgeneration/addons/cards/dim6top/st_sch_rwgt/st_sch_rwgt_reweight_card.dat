@@ -7,107 +7,107 @@ change rwgt_dir rwgt
 launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p_ctWI_0p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 0.000000
+set width 6 1.4819
 
 launch --rwgt_name=ctZ_1p_ctZI_0p_ctW_0p_ctWI_0p
-set width 6 Auto
 set ctZ 1.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 0.000000
+set width 6 1.4819
 
 launch --rwgt_name=ctZ_0p_ctZI_1p_ctW_0p_ctWI_0p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 1.000000
 set ctW 0.000000
 set ctWI 0.000000
+set width 6 1.4819
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_1p_ctWI_0p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 1.000000
 set ctWI 0.000000
+set width 6 1.7458
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p_ctWI_1p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 1.000000
+set width 6 1.4987
 
 launch --rwgt_name=ctZ_2p_ctZI_0p_ctW_0p_ctWI_0p
-set width 6 Auto
 set ctZ 2.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 0.000000
+set width 6 1.4819
 
 launch --rwgt_name=ctZ_1p_ctZI_1p_ctW_0p_ctWI_0p
-set width 6 Auto
 set ctZ 1.000000
 set ctZI 1.000000
 set ctW 0.000000
 set ctWI 0.000000
+set width 6 1.4819
 
 launch --rwgt_name=ctZ_1p_ctZI_0p_ctW_1p_ctWI_0p
-set width 6 Auto
 set ctZ 1.000000
 set ctZI 0.000000
 set ctW 1.000000
 set ctWI 0.000000
+set width 6 1.7458
 
 launch --rwgt_name=ctZ_1p_ctZI_0p_ctW_0p_ctWI_1p
-set width 6 Auto
 set ctZ 1.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 1.000000
+set width 6 1.4987
 
 launch --rwgt_name=ctZ_0p_ctZI_2p_ctW_0p_ctWI_0p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 2.000000
 set ctW 0.000000
 set ctWI 0.000000
+set width 6 1.4819
 
 launch --rwgt_name=ctZ_0p_ctZI_1p_ctW_1p_ctWI_0p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 1.000000
 set ctW 1.000000
 set ctWI 0.000000
+set width 6 1.7458
 
 launch --rwgt_name=ctZ_0p_ctZI_1p_ctW_0p_ctWI_1p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 1.000000
 set ctW 0.000000
 set ctWI 1.000000
+set width 6 1.4987
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_2p_ctWI_0p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 2.000000
 set ctWI 0.000000
+set width 6 2.0434
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_1p_ctWI_1p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 1.000000
 set ctWI 1.000000
+set width 6 1.7626
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p_ctWI_2p
-set width 6 Auto
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 2.000000
+set width 6 1.5494
 
