@@ -5,10 +5,9 @@ set loop_color_flows False
 set gauge unitary
 set complex_mass_scheme False
 set max_npoint_for_channel 0
-set stdout_level DEBUG
 import model dim6-custom
 define w = w+ w-
-generate p p > t~ b j $$ w+ w- DIM6=1, t~ > b~ w- DIM6=1, w- > all all DIM6=0
-add process p p > t b~ j $$ w+ w- DIM6=1, t > b w+ DIM6=1, w+ > all all DIM6=6
+generate p p > t~ b j $$ w+ w- DIM6=3, t~ > b~ w- DIM6=3, w- > all all DIM6=0
+add process p p > t b~ j $$ w+ w- DIM6=3, t > b w+ DIM6=3, w+ > all all DIM6=0
 output st_tch_rwgt
 

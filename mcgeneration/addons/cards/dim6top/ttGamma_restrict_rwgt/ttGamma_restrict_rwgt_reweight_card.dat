@@ -1,98 +1,113 @@
-# reweight card file created with https://github.com/schoef/gridpacks on 2020-02-04 02:28:41
-# Command line arguments: make_reweight_card.py --couplings 2 ctZ 1 ctZI 1 ctW 1 ctWI 1 --referencepoint ctZ 4 ctZI 4 ctW 4 ctWI 4 --filename addons/cards/dim6top/ttGamma_Had/ttGamma_Had_reweight_card.dat
+# reweight card file created with https://github.com/schoef/gridpacks on 2020-09-25 11:07:11
+# Command line arguments: make_reweight_card.py --couplings 2 ctZ 0.5 ctZI 0.5 ctW 0.5 ctWI 0.5 --referencepoint ctZ 1 ctZI 1 ctW -1 ctWI -1 --filename reweight_card.dat
 # Polynomial order: 2
-# Reference Point: ctZ 4 ctZI 4 ctW 4 ctWI 4
+# Reference Point: ctZ 1 ctZI 1 ctW -1 ctWI -1
 change rwgt_dir rwgt
 
 launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p_ctWI_0p
+set width 6 1.4819
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p5_ctZI_0p_ctW_0p_ctWI_0p
+set width 6 1.4819
+set ctZ 0.500000
+set ctZI 0.000000
+set ctW 0.000000
+set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p5_ctW_0p_ctWI_0p
+set width 6 1.4819
+set ctZ 0.000000
+set ctZI 0.500000
+set ctW 0.000000
+set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p5_ctWI_0p
+set width 6 1.6096
+set ctZ 0.000000
+set ctZI 0.000000
+set ctW 0.500000
+set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p_ctWI_0p5
+set width 6 1.4861
+set ctZ 0.000000
+set ctZI 0.000000
+set ctW 0.000000
+set ctWI 0.500000
 
 launch --rwgt_name=ctZ_1p_ctZI_0p_ctW_0p_ctWI_0p
+set width 6 1.4819
 set ctZ 1.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p5_ctZI_0p5_ctW_0p_ctWI_0p
+set width 6 1.4819
+set ctZ 0.500000
+set ctZI 0.500000
+set ctW 0.000000
+set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p5_ctZI_0p_ctW_0p5_ctWI_0p
+set width 6 1.6096
+set ctZ 0.500000
+set ctZI 0.000000
+set ctW 0.500000
+set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p5_ctZI_0p_ctW_0p_ctWI_0p5
+set width 6 1.4861
+set ctZ 0.500000
+set ctZI 0.000000
+set ctW 0.000000
+set ctWI 0.500000
 
 launch --rwgt_name=ctZ_0p_ctZI_1p_ctW_0p_ctWI_0p
+set width 6 1.4819
 set ctZ 0.000000
 set ctZI 1.000000
 set ctW 0.000000
 set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p5_ctW_0p5_ctWI_0p
+set width 6 1.6096
+set ctZ 0.000000
+set ctZI 0.500000
+set ctW 0.500000
+set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p5_ctW_0p_ctWI_0p5
+set width 6 1.4861
+set ctZ 0.000000
+set ctZI 0.500000
+set ctW 0.000000
+set ctWI 0.500000
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_1p_ctWI_0p
+set width 6 1.7458
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 1.000000
 set ctWI 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p5_ctWI_0p5
+set width 6 1.6138
+set ctZ 0.000000
+set ctZI 0.000000
+set ctW 0.500000
+set ctWI 0.500000
 
 launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p_ctWI_1p
+set width 6 1.4987
 set ctZ 0.000000
 set ctZI 0.000000
 set ctW 0.000000
 set ctWI 1.000000
-
-launch --rwgt_name=ctZ_2p_ctZI_0p_ctW_0p_ctWI_0p
-set ctZ 2.000000
-set ctZI 0.000000
-set ctW 0.000000
-set ctWI 0.000000
-
-launch --rwgt_name=ctZ_1p_ctZI_1p_ctW_0p_ctWI_0p
-set ctZ 1.000000
-set ctZI 1.000000
-set ctW 0.000000
-set ctWI 0.000000
-
-launch --rwgt_name=ctZ_1p_ctZI_0p_ctW_1p_ctWI_0p
-set ctZ 1.000000
-set ctZI 0.000000
-set ctW 1.000000
-set ctWI 0.000000
-
-launch --rwgt_name=ctZ_1p_ctZI_0p_ctW_0p_ctWI_1p
-set ctZ 1.000000
-set ctZI 0.000000
-set ctW 0.000000
-set ctWI 1.000000
-
-launch --rwgt_name=ctZ_0p_ctZI_2p_ctW_0p_ctWI_0p
-set ctZ 0.000000
-set ctZI 2.000000
-set ctW 0.000000
-set ctWI 0.000000
-
-launch --rwgt_name=ctZ_0p_ctZI_1p_ctW_1p_ctWI_0p
-set ctZ 0.000000
-set ctZI 1.000000
-set ctW 1.000000
-set ctWI 0.000000
-
-launch --rwgt_name=ctZ_0p_ctZI_1p_ctW_0p_ctWI_1p
-set ctZ 0.000000
-set ctZI 1.000000
-set ctW 0.000000
-set ctWI 1.000000
-
-launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_2p_ctWI_0p
-set ctZ 0.000000
-set ctZI 0.000000
-set ctW 2.000000
-set ctWI 0.000000
-
-launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_1p_ctWI_1p
-set ctZ 0.000000
-set ctZI 0.000000
-set ctW 1.000000
-set ctWI 1.000000
-
-launch --rwgt_name=ctZ_0p_ctZI_0p_ctW_0p_ctWI_2p
-set ctZ 0.000000
-set ctZI 0.000000
-set ctW 0.000000
-set ctWI 2.000000
 
