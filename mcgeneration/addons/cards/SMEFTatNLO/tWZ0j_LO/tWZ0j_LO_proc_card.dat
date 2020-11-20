@@ -1,0 +1,11 @@
+import model SMEFTatNLO-LO
+define p = p b  b~
+define j = g u u~ d d~ c c~ s s~
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+define w = w+ w-
+generate p p > t w Z /h NP=2
+add process p p > t~ w Z /h NP=2
+output tWZ0j_LO
