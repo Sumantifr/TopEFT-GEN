@@ -136,6 +136,9 @@ make_gridpack () {
       wget --no-check-certificate ${MGSOURCE}
       tar xzf ${MG}
       rm "$MG"
+
+      # agrohsje 
+      cp -rp ${PRODHOME}/addons/models/* ${MGBASEDIRORIG}/models/.
     
       #############################################
       #Apply any necessary patches on top of official release
