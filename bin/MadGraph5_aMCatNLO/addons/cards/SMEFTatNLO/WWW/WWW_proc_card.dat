@@ -40,6 +40,6 @@ define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
-generate p p > w w w $$ t t~  NP=2  @ 0
-add process p p > w w w j$$ t t~  NP=2 @ 1
+generate p p > w w w $$ t t~  NP=2, w+ > l+ vl, w- > l- vl~  @ 0
+add process p p > w w w j$$ t t~  NP=2, w+ > l+ vl, w- > l- vl~ @ 1
 output WWW
