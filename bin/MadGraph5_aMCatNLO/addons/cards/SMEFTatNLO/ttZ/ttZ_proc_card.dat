@@ -17,11 +17,7 @@ define uc~ = u~ c~
 define ds = d s
 define ds~ = d~ s~
 
-#generate p p > t t~ > w+ w- b b~ Z NP=2, z > l+ l-, w- > l- vl~, w+ > l+ vl
-#generate p p > t t~ > w+ w- b b~ Z NP=2, z > l+ l-, w- > j   j,  w+ > l+ vl
-#generate p p > t t~ > w+ w- b b~ Z NP=2, z > l+ l-, w- > l- vl~, w+ > j   j
-
-generate p p > t t~ l+ l-  / h NP=2 @0
-add process p p > t t~ l+ l- j / h NP=2 @1
+generate p p > t t~ z NP=2, z > l+ l- @0
+add process p p > t t~ z j NP=2, z > l+ l- @1
 
 output ttZ
