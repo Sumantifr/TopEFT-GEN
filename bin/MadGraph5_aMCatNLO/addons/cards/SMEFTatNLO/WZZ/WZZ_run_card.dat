@@ -48,8 +48,9 @@
 #*********************************************************************
 # PDF CHOICE: this automatically fixes also alpha_s and its evol.    *
 #*********************************************************************
-  lhapdf	=  pdlabel      ! PDF set                                     
-  263000	=  lhaid      ! if pdlabel=lhapdf, this is the lhapdf number
+ 'lhapdf'    = pdlabel     ! PDF set
+$DEFAULT_PDF_SETS = lhaid
+$DEFAULT_PDF_MEMBERS = reweight_PDF     ! if pdlabel=lhapdf, this is the lhapdf number
 #*********************************************************************
 # Renormalization and factorization scales                           *
 #*********************************************************************
@@ -83,7 +84,7 @@
 # Automatic ptj and mjj cuts if xqcut > 0
 # (turn off for VBF and single top processes)
 #**********************************************************
-  False	=  auto_ptj_mjj   ! Automatic setting of ptj and mjj
+  True	=  auto_ptj_mjj   ! Automatic setting of ptj and mjj
 #**********************************************************
 #                                                                    
 #**********************************
@@ -136,7 +137,7 @@
 #*********************************************************************
   6.5	=  etaj     ! max rap for the jets 
   -1.0	=  etab     ! max rap for the b
-  2.5	=  etaa     ! max rap for the photons 
+  -1	=  etaa     ! max rap for the photons 
   -1.0	=  etal     ! max rap for the charged leptons 
   0.0	=  etajmin  ! min rap for the jets
   0.0	=  etabmin  ! min rap for the b
@@ -145,13 +146,13 @@
 #*********************************************************************
 # Minimum and maximum DeltaR distance                                *
 #*********************************************************************
-  0.4	=  drjj     ! min distance between jets 
+  0	=  drjj     ! min distance between jets 
   0.0	=  drbb     ! min distance between b's 
-  0.4	=  drll     ! min distance between leptons 
+  0.0	=  drll     ! min distance between leptons 
   0.0	=  draa     ! min distance between gammas 
   0.0	=  drbj     ! min distance between b and jet 
   0.0	=  draj     ! min distance between gamma and jet 
-  0.4	=  drjl     ! min distance between jet and lepton 
+  0.0	=  drjl     ! min distance between jet and lepton 
   0.0	=  drab     ! min distance between gamma and b 
   0.0	=  drbl     ! min distance between b and lepton 
   0.0	=  dral     ! min distance between gamma and lepton 
@@ -268,7 +269,7 @@
 #          meaningful ONLY if plotted taking matchscale              *
 #          reweighting into account!                                 *
 #*********************************************************************
-  True	=  use_syst       ! Enable systematics studies
+  F	=  use_syst       ! Enable systematics studies
 #
 #**************************************
 # Parameter of the systematics study

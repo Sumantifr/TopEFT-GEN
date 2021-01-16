@@ -48,8 +48,9 @@
 #*********************************************************************
 # PDF CHOICE: this automatically fixes also alpha_s and its evol.    *
 #*********************************************************************
-  lhapdf	=  pdlabel      ! PDF set                                     
-  263000	=  lhaid      ! if pdlabel=lhapdf, this is the lhapdf number
+ 'lhapdf'    = pdlabel     ! PDF set
+$DEFAULT_PDF_SETS = lhaid
+$DEFAULT_PDF_MEMBERS = reweight_PDF     ! if pdlabel=lhapdf, this is the lhapdf number
 #*********************************************************************
 # Renormalization and factorization scales                           *
 #*********************************************************************
@@ -83,7 +84,7 @@
 # Automatic ptj and mjj cuts if xqcut > 0
 # (turn off for VBF and single top processes)
 #**********************************************************
-  False	=  auto_ptj_mjj   ! Automatic setting of ptj and mjj
+  True	=  auto_ptj_mjj   ! Automatic setting of ptj and mjj
 #**********************************************************
 #                                                                    
 #**********************************
@@ -145,9 +146,9 @@
 #*********************************************************************
 # Minimum and maximum DeltaR distance                                *
 #*********************************************************************
-  0.4	=  drjj     ! min distance between jets 
+  0	=  drjj     ! min distance between jets 
   0.0	=  drbb     ! min distance between b's 
-  0.4	=  drll     ! min distance between leptons 
+  0.0	=  drll     ! min distance between leptons 
   0.0	=  draa     ! min distance between gammas 
   0.0	=  drbj     ! min distance between b and jet 
   0.0	=  draj     ! min distance between gamma and jet 
@@ -268,7 +269,7 @@
 #          meaningful ONLY if plotted taking matchscale              *
 #          reweighting into account!                                 *
 #*********************************************************************
-  True	=  use_syst       ! Enable systematics studies
+  False	=  use_syst       ! Enable systematics studies
 #
 #**************************************
 # Parameter of the systematics study

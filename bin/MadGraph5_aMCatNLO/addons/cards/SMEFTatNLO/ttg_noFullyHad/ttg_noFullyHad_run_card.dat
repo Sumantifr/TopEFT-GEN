@@ -262,6 +262,6 @@ $DEFAULT_PDF_MEMBERS = reweight_PDF     ! if pdlabel=lhapdf, this is the lhapdf 
 #          meaningful ONLY if plotted taking matchscale              *
 #          reweighting into account!                                 *
 #*********************************************************************
-   T  = use_syst      ! Enable systematics studies
+   F  = use_syst      ! Enable systematics studies
 #
 #**************************************
