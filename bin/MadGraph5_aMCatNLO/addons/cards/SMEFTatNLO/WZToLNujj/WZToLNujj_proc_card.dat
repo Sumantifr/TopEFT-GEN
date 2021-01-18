@@ -42,4 +42,4 @@ define vl~ = ve~ vm~ vt~
 define w = w+ w-
 generate p p > w z NP=2, w+ > l+ vl, w- > l- vl~, z > j j  @ 0
 add process p p > w z j NP=2, w+ > l+ vl, w- > l- vl~, z > j j @ 1
-output WZTo1L1Nujj
+output WZToLNujj
