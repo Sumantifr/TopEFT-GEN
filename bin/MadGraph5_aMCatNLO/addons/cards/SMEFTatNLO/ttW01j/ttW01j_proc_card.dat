@@ -18,6 +18,6 @@ define ds = d s
 define ds~ = d~ s~
 define w  = w+ w-
 generate p p > t t~ > w+ w- b b~ w NP=2
-generate p p > t t~ > w+ w- b b~ w j NP=2
+add process p p > t t~ > w+ w- b b~ w j NP=2
 
 output ttW01j
