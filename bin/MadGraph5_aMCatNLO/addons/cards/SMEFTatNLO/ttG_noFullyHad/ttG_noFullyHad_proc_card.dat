@@ -17,7 +17,8 @@ define uc~ = u~ c~
 define ds = d s
 define ds~ = d~ s~
 
-generate p p > t t~ z NP=2, z > l+ l- @0
-add process p p > t t~ z j NP=2, z > l+ l- @1
+generate    p p > t t~ > w+ w- b b~ a NP=2, w- > l- vl~, w+ > l+ vl
+add process p p > t t~ > w+ w- b b~ a NP=2, w- > j   j,  w+ > l+ vl
+add process p p > t t~ > w+ w- b b~ a NP=2, w- > l- vl~, w+ > j  j
 
-output ttZ
+output ttG_noFullyHad
