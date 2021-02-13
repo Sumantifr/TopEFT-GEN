@@ -1,12 +1,13 @@
-# reweight card file created with https://github.com/schoef/gridpacks on 2021-01-17 03:20:17
-# Command line arguments: make_reweight_card.py --couplings 2 cp .5 cpBB .5 cpW .5 cdp .5 ctp .5 cpDC .5 cWWW .5 cpWB .5 cpQ3 .5 cpQM .5 cpt .5 ctZ .5 --referencepoint ctZ 1 --filename reweight_card.dat --overwrite
+# reweight card file created with https://github.com/schoef/gridpacks on 2021-02-13 07:04:43
+# Command line arguments: make_reweight_card.py --couplings 2 ctG .5 cp .5 cpBB .5 cpW .5 cdp .5 ctp .5 cpDC .5 cWWW .5 cpWB .5 cpQ3 .5 cpQM .5 cpt .5 ctZ .5 --referencepoint ctZ 1 --filename reweight_card.dat --overwrite
 # Polynomial order: 2
 # Reference Point: ctZ 1
 change rwgt_dir rwgt
 
 launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -20,7 +21,23 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -34,7 +51,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -48,7 +66,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -62,7 +81,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -76,7 +96,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -90,7 +111,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -104,7 +126,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -118,7 +141,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -132,7 +156,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -146,7 +171,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -160,7 +186,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -174,7 +201,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -188,7 +216,203 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_1p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_1p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 1.000000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.500000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.500000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.500000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.500000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.500000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.500000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.500000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.500000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.500000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.500000
+set cpt 0.000000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.500000
+set ctZ 0.000000
+
+launch --rwgt_name=ctG_0p5_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.500000
+set cp 0.000000
+set cpBB 0.000000
+set cpW 0.000000
+set cdp 0.000000
+set ctp 0.000000
+set cpDC 0.000000
+set cWWW 0.000000
+set cpWB 0.000000
+set cpQ3 0.000000
+set cpQM 0.000000
+set cpt 0.000000
+set ctZ 0.500000
+
+launch --rwgt_name=ctG_0p_cp_1p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 1.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -202,7 +426,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.500000
 set cpW 0.000000
@@ -216,7 +441,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.500000
@@ -230,7 +456,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -244,7 +471,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -258,7 +486,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -272,7 +501,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -286,7 +516,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -300,7 +531,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -314,7 +546,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -328,7 +561,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -342,7 +576,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p5_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.500000
 set cpBB 0.000000
 set cpW 0.000000
@@ -356,7 +591,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_1p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_1p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 1.000000
 set cpW 0.000000
@@ -370,7 +606,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.500000
@@ -384,7 +621,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -398,7 +636,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -412,7 +651,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -426,7 +666,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -440,7 +681,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -454,7 +696,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -468,7 +711,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -482,7 +726,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -496,7 +741,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p5_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.500000
 set cpW 0.000000
@@ -510,7 +756,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_1p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_1p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 1.000000
@@ -524,7 +771,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -538,7 +786,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -552,7 +801,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -566,7 +816,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -580,7 +831,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -594,7 +846,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -608,7 +861,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -622,7 +876,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -636,7 +891,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p5_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.500000
@@ -650,7 +906,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_1p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_1p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -664,7 +921,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -678,7 +936,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -692,7 +951,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -706,7 +966,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -720,7 +981,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -734,7 +996,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -748,7 +1011,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -762,7 +1026,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p5_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -776,7 +1041,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_1p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_1p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -790,7 +1056,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -804,7 +1071,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -818,7 +1086,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -832,7 +1101,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -846,7 +1116,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -860,7 +1131,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -874,7 +1146,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p5_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -888,7 +1161,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_1p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_1p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -902,7 +1176,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -916,7 +1191,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -930,7 +1206,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -944,7 +1221,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -958,7 +1236,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -972,7 +1251,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p5_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -986,7 +1266,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_1p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_1p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1000,7 +1281,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1014,7 +1296,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1028,7 +1311,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1042,7 +1326,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1056,7 +1341,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p5_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1070,7 +1356,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_1p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_1p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1084,7 +1371,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1098,7 +1386,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1112,7 +1401,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1126,7 +1416,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p5_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1140,7 +1431,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_1p_cpQM_0p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_1p_cpQM_0p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1154,7 +1446,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p5_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p5_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1168,7 +1461,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1182,7 +1476,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p5_cpQM_0p_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1196,7 +1491,8 @@ set cpQM 0.000000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_1p_cpt_0p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_1p_cpt_0p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1210,7 +1506,8 @@ set cpQM 1.000000
 set cpt 0.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p5_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p5_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1224,7 +1521,8 @@ set cpQM 0.500000
 set cpt 0.500000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p5_cpt_0p_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1238,7 +1536,8 @@ set cpQM 0.500000
 set cpt 0.000000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_1p_ctZ_0p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_1p_ctZ_0p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1252,7 +1551,8 @@ set cpQM 0.000000
 set cpt 1.000000
 set ctZ 0.000000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p5
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p5_ctZ_0p5
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
@@ -1266,7 +1566,8 @@ set cpQM 0.000000
 set cpt 0.500000
 set ctZ 0.500000
 
-launch --rwgt_name=cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_1p
+launch --rwgt_name=ctG_0p_cp_0p_cpBB_0p_cpW_0p_cdp_0p_ctp_0p_cpDC_0p_cWWW_0p_cpWB_0p_cpQ3_0p_cpQM_0p_cpt_0p_ctZ_1p
+set ctG 0.000000
 set cp 0.000000
 set cpBB 0.000000
 set cpW 0.000000
