@@ -1,76 +1,76 @@
-set param_card DIM6 1 1.000000e+03  
-set param_card DIM6 2 0.000000e+00
-set param_card DIM6 3 0.000000e+00
-set param_card DIM6 4 0.000000e+00
-set param_card DIM6 5 0.000000e+00
-set param_card DIM6 6 0.000000e+00
-set param_card DIM6 7 0.000000e+00
-set param_card DIM6 8 0.000000e+00
-set param_card DIM6 9 0.000000e+00
-set param_card DIM6 10 0.000000e+00
-set param_card DIM62F 1 0.000000e+00
-set param_card DIM62F 2 0.000000e+00
-set param_card DIM62F 3 0.000000e+00
-set param_card DIM62F 4 0.000000e+00
-set param_card DIM62F 5 0.000000e+00
-set param_card DIM62F 6 0.000000e+00
-set param_card DIM62F 7 0.000000e+00
-set param_card DIM62F 8 0.000000e+00
-set param_card DIM62F 9 0.000000e+00
-set param_card DIM62F 10 0.000000e+00
-set param_card DIM62F 11 0.000000e+00
-set param_card DIM62F 12 0.000000e+00
-set param_card DIM62F 13 0.000000e+00
-set param_card DIM62F 14 0.000000e+00
-set param_card DIM62F 15 0.000000e+00
-set param_card DIM62F 16 0.000000e+00
-set param_card DIM62F 19 0.000000e+00
-set param_card DIM62F 22 0.000000e+00
-set param_card DIM62F 23 0.000000e+00
-set param_card DIM62F 24 0.000000e+00
-set param_card DIM64F 1 0.000000e+00
-set param_card DIM64F 2 0.000000e+00
-set param_card DIM64F 3 0.000000e+00
-set param_card DIM64F 4 0.000000e+00
-set param_card DIM64F 6 0.000000e+00
-set param_card DIM64F 7 0.000000e+00
-set param_card DIM64F 8 0.000000e+00
-set param_card DIM64F 10 0.000000e+00
-set param_card DIM64F 11 0.000000e+00
-set param_card DIM64F 12 0.000000e+00
-set param_card DIM64F 13 0.000000e+00
-set param_card DIM64F 14 0.000000e+00
-set param_card DIM64F 16 0.000000e+00
-set param_card DIM64F 17 0.000000e+00
-set param_card DIM64F 19 0.000000e+00
-set param_card DIM64F 20 0.000000e+00
-set param_card DIM64F 21 0.000000e+00
-set param_card DIM64F 23 0.000000e+00
-set param_card DIM64F 25 0.000000e+00
-set param_card DIM64F2L 1 0.000000e+00
-set param_card DIM64F2L 2 0.000000e+00
-set param_card DIM64F2L 3 0.000000e+00
-set param_card DIM64F2L 4 0.000000e+00
-set param_card DIM64F2L 5 0.000000e+00
-set param_card DIM64F2L 6 0.000000e+00
-set param_card DIM64F2L 7 0.000000e+00
-set param_card DIM64F2L 8 0.000000e+00
-set param_card DIM64F2L 9 0.000000e+00
-set param_card DIM64F2L 10 0.000000e+00
-set param_card DIM64F2L 13 0.000000e+00
-set param_card DIM64F2L 14 0.000000e+00
-set param_card DIM64F2L 15 0.000000e+00
-set param_card DIM64F2L 16 0.000000e+00
-set param_card DIM64F2L 17 0.000000e+00
-set param_card DIM64F2L 19 0.000000e+00
-set param_card DIM64F2L 20 0.000000e+00
-set param_card DIM64F2L 21 0.000000e+00
-set param_card DIM64F4L 1 0.000000e+00
-set param_card DIM64F4L 2 0.000000e+00
-set param_card DIM64F4L 3 0.000000e+00
-set param_card DIM64F4L 4 0.000000e+00
-set param_card DIM64F4L 5 0.000000e+00
-set param_card DIM64F4L 6 0.000000e+00
-set param_card DIM64F4L 7 0.000000e+00
-set param_card DIM64F4L 8 0.000000e+00
-set param_card DIM64F4L 9 0.000000e+00
+set param_card  Lambda 1.000000e+03  
+set param_card  cpDC 0.000000e+00  
+set param_card  cpWB 0.000000e+00  
+set param_card  cdp  0.000000e+00  
+set param_card  cp 0.000000e+00  
+set param_card  cWWW 0.000000e+00  
+set param_card  cG 0.000000e+00  
+set param_card  cpG  0.000000e+00  
+set param_card  cpW  0.000000e+00  
+set param_card  cpBB 0.000000e+00  
+set param_card  cpl1  0.000000e+00 
+set param_card  cpl2  0.000000e+00  
+set param_card  cpl3  0.000000e+00 
+set param_card  c3pl1 0.000000e+00
+set param_card  c3pl2 0.000000e+00
+set param_card  c3pl3 0.000000e+00
+set param_card  cpe 0.000000e+00
+set param_card  cpmu  0.000000e+00
+set param_card  cpta  0.000000e+00 
+set param_card  cpqMi 0.000000e+00
+set param_card  cpq3i 0.000000e+00
+set param_card  cpQ3  0.000000e+00
+set param_card  cpQM  0.000000e+00
+set param_card  cpu 0.000000e+00
+set param_card  cpt 0.000000e+00
+set param_card  cpd 1.000000e-10
+set param_card  ctp 0.000000e+00 
+set param_card  ctZ 0.000000e+00
+set param_card  ctW 0.000000e+00
+set param_card  ctG 0.000000e+00
+set param_card  cQq83 0.000000e+00
+set param_card  cQq81 0.000000e+00
+set param_card  cQu8  0.000000e+00
+set param_card  ctq8  0.000000e+00
+set param_card  cQd8  0.000000e+00  
+set param_card  ctu8  0.000000e+00
+set param_card  ctd8  0.000000e+00
+set param_card  cQq13 0.000000e+00
+set param_card  cQq11 0.000000e+00
+set param_card  cQu1  0.000000e+00
+set param_card  ctq1  0.000000e+00
+set param_card  cQd1  0.000000e+00
+set param_card  ctu1  0.000000e+00  
+set param_card  ctd1  0.000000e+00  
+set param_card  cQQ8  0.000000e+00 
+set param_card  cQQ1  0.000000e+00
+set param_card  cQt1  0.000000e+00
+set param_card  ctt1  0.000000e+00
+set param_card  cQt8  0.000000e+00
+set param_card  cQlM1 0.000000e+00
+set param_card  cQlM2 0.000000e+00 
+set param_card  cQl31 0.000000e+00
+set param_card  cQl32 0.000000e+00
+set param_card  cQe1  0.000000e+00
+set param_card  cQe2  0.000000e+00
+set param_card  ctl1  0.000000e+00
+set param_card  ctl2  0.000000e+00
+set param_card  cte1  0.000000e+00
+set param_card  cte2  0.000000e+00 
+set param_card  cQlM3 0.000000e+00
+set param_card  cQl33 0.000000e+00
+set param_card  cQe3  0.000000e+00
+set param_card  ctl3  0.000000e+00
+set param_card  cte3  0.000000e+00
+set param_card  ctlS3 0.000000e+00
+set param_card  ctlT3 0.000000e+00
+set param_card  cblS3 0.000000e+00  
+set param_card  cll1111 0.000000e+00 
+set param_card  cll2222 0.000000e+00 
+set param_card  cll3333 0.000000e+00 
+set param_card  cll1122 0.000000e+00 
+set param_card  cll1133 0.000000e+00 
+set param_card  cll2233 0.000000e+00 
+set param_card  cll1221 0.000000e+00 
+set param_card  cll1331 0.000000e+00 
+set param_card  cll2332 0.000000e+00
