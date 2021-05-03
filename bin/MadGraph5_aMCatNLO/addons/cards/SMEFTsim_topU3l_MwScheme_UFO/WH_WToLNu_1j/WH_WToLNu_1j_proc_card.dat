@@ -5,7 +5,7 @@ set group_subprocesses Auto
 set ignore_six_quark_processes False
 set loop_optimized_output True
 set complex_mass_scheme False
-import model SMEFTsim_topU3l_MwScheme_UFO
+import model SMEFTsim_topU3l_MwScheme_UFO-massless 
 define p = g u c d s u~ c~ d~ s~
 define j = g u c d s u~ c~ d~ s~
 define l+ = e+ mu+
@@ -19,6 +19,6 @@ define vl~ = ve~ vm~ vt~
 define w = w+ w-
 define lp = l+ l-
 define vp = vl vl~
-generate p p > w h SMHLOOP=0 NPprop=0 NP=1, w > lp vp ALL<=99
-add process p p > w h j SMHLOOP=0 NPprop=0 NP=1, w > lp vp ALL<=99
-output WH_LeptonicW_1j_Wdecay -nojpeg
+generate p p > w h SMHLOOP=0 NPprop=0 NP=1, w > lp vp ALL<=99, h > b b~ ALL<=99
+add process p p > w h j SMHLOOP=0 NPprop=0 NP=1, w > lp vp ALL<=99, h > b b~ ALL<=99
+output WH_WToLNu_1j -nojpeg
