@@ -1,5 +1,5 @@
 # reweight card file created with https://github.com/schoef/gridpacks on 2021-06-07 14:25:21
-# Command line arguments: ./../../../../make_reweight_card.py --couplings 2 cWWW .2 cpq3i .2 cpqMi .2 cpu .2 cpt .2 cpQ3 .2 cpQM .2 cpb .2 cpd .2 --filename ZZ_reweight_card.dat --overwrite
+# Command line arguments: ./../../../../make_reweight_card.py --couplings 2 cWWW .2 cpq3i .2 cpqMi .2 cpu .2 cpt .2 cpQ3 .2 cpQM .2 cpd .2 --filename ZZ_reweight_card.dat --overwrite
 # Polynomial order: 2
 change rwgt_dir rwgt
 
