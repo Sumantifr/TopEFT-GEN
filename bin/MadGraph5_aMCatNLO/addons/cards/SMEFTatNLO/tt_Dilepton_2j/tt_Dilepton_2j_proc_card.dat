@@ -1,0 +1,14 @@
+import model SMEFTatNLO-LO_TT
+define p = g u c d s b u~ c~ d~ s~ b~
+define j = p
+define l+ = e+ mu+ ta+
+define l- = e- mu- ta-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+define w = w+ w-
+define lp = l+ l-
+define vp = vl vl~
+generate p p > t t~ NP=2, (t > b w+, w+ > l+ vl), (t~ > b~ w-, w- > l- vl~)
+add process p p > t t~ j NP=2, (t > b w+, w+ > l+ vl), (t~ > b~ w-, w- > l- vl~)
+add process p p > t t~ j j NP=2, (t > b w+, w+ > l+ vl), (t~ > b~ w-, w- > l- vl~)
+output tt_Dilepton_2j -nojpeg

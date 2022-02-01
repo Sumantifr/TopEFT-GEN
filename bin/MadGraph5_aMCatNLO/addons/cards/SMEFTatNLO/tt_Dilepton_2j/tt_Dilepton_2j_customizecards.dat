@@ -1,0 +1,17 @@
+set param_card DIM62F 24 4.000000e+00
+set param_card DIM64F 1 4.000000e+00
+set param_card DIM64F 2 4.000000e+00
+set param_card DIM64F 3 4.000000e+00
+set param_card DIM64F 4 4.000000e+00
+set param_card DIM64F 6 4.000000e+00
+set param_card DIM64F 7 4.000000e+00
+set param_card DIM64F 8 4.000000e+00
+set param_card DIM64F 10 4.000000e+00
+set param_card DIM64F 11 4.000000e+00
+set param_card DIM64F 12 4.000000e+00
+set param_card DIM64F 13 4.000000e+00
+set param_card DIM64F 14 4.000000e+00
+set param_card DIM64F 16 4.000000e+00
+set param_card DIM64F 17 4.000000e+00
+set param_card DIM64F 20 4.000000e+00
+set param_card DIM64F 25 4.000000e+00
