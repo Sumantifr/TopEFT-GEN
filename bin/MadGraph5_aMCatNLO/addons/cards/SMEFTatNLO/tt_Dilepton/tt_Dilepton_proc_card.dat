@@ -5,8 +5,5 @@ define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
-define w = w+ w-
-define lp = l+ l-
-define vp = vl vl~
 generate p p > t t~ NP=2, (t > b w+, w+ > l+ vl), (t~ > b~ w-, w- > l- vl~)
 output tt_Dilepton -nojpeg
