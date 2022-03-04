@@ -5,7 +5,8 @@ define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
-generate p p > t t~ NP=2 @0
-add process p p > t t~ j NP=2 @1
-add process p p > t t~ j j NP=2 @2
+generate p p > t t~ NP=2, (t > w+ b, w+ > l+ vl), (t~ > w- b~, w- > l- vl~) @0
+add process p p > t t~ j NP=2, (t > w+ b, w+ > l+ vl), (t~ > w- b~, w- > l- vl~) @1
+add process p p > t t~ j j NP=2, (t > w+ b, w+ > l+ vl), (t~ > w- b~, w- > l- vl~) @2
+add process p p > t t~ j j j NP=2, (t > w+ b, w+ > l+ vl), (t~ > w- b~, w- > l- vl~) @3
 output tt_Dilepton_2j -nojpeg
