@@ -20,4 +20,6 @@ define w = w+ w-
 define lp = l+ l-
 define vp = vl vl~
 generate p p > w h NP=2, w > lp vp
+add process p p > w h j NP=2, w > lp vp
+add process p p > w h j j NP=2, w > lp vp
 output WH_LeptonicW_LO -nojpeg
